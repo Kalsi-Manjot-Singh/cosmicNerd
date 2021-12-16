@@ -1,0 +1,141 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0D0221;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+/* Website Container */
+
+.wrapper {
+  width: 1440px;
+  height: 790px;
+  /* border: 2px solid white; */
+}
+
+/* Navigation Bar Styles */
+
+
+.Ucircle {
+  width: 241px;
+  height: 241px;
+  background-color: #8E7310;
+  box-shadow: inset 4px 13px 11px 10px #FFC700;
+  border-radius: 50%;
+  z-index: -1;
+  position:absolute;
+  left: 102px;
+  top: 126px;
+}
+
+nav {
+  display: flex;
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  margin-left: 132px;
+  margin-right: 131px;
+}
+
+/* Navigation Bar: Nav-Items */
+
+.nav-items {  
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 575px;
+}
+
+.nav-items li {
+  font-size: 1.8rem;
+}
+
+.nav-items li a {
+  color: #FBD244;
+  text-decoration: none;
+  padding-right: 27px;
+}
+
+/* Main Section */
+
+main {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 392px;
+  width: 1000px;
+  margin:auto;
+  /* margin-left: 131px;
+  margin-right: 132px; */
+  margin-top: 100px;
+}
+
+.main-heading, .main-paragraph {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.smallfont {
+  color: #ffffff;
+  font-size: 3.0rem;
+}
+
+.big {
+  color: #9381FF;
+  font-size: 7rem;
+  padding-bottom: 42px;
+  padding-left: 10px;
+}
+
+.a {
+  color: #C9C0FF;
+  font-size: 3.0rem;
+}
+
+.b {
+  color: #FFC700;
+  font-size: 4.0rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #120675;
+  color: #FFFFFF;
+  padding: 11px 38px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.main-paragraph {
+  margin-bottom: 20px;
+}
+
+.Lcircle {
+  position: absolute;
+  width: 241px;
+  height: 241px;
+  left: 639px;
+  top: 269px;
+  background-color: rgba(49, 36, 162, 0.3);
+  box-shadow: 4px 5px 10px 10px #9381FF;
+  border-radius: 50%;
+}
+
+.right {
+  position: absolute;
+  width: 276px;
+  height: 362px;
+  left: 1033px;
+  top: 205px;
+}
