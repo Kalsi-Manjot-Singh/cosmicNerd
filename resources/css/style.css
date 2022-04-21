@@ -43,13 +43,19 @@ nav {
 }
 
 .nav-items li {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .nav-items li a {
   color: #FBD244;
   text-decoration: none;
   padding-right: 27px;
+}
+
+.nav-items li a:hover {
+  color: white;
+  transition: all 3ms ease-in-out;
+
 }
 
 /* Main Section Styles */
@@ -107,10 +113,16 @@ main {
   background-color: #120675;
   color: #FFFFFF;
   padding: 11px 38px;
-  border-radius: 20px;
+  border-radius: 17px;
   font-size: 1.1rem;
   margin-right: 20px;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #FFFFFF; ;
+  color: #120675;
+  transition: all 4ms ease-in-out;
 }
 
 /* Main Section: Right Iframe */
@@ -199,6 +211,7 @@ main {
   color: #593EFA;
   font-weight: bold;
   font-size: 1.3rem;
+  cursor:var(--bg);
 }
 
 .skillsbtnA {
@@ -215,6 +228,7 @@ main {
   bottom: 136px;
 }
 
+/* bg elements */
 .circle1 {
 position: absolute;
 width: 92px;
